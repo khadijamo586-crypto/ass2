@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Make an Order| Fabrics House</title>
+        <meta charset="UTF-8" /> 
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0" > 
+        <link  rel = "stylesheet" href="CSS/style.css" >
+    </head>
+    <body>
+        <header class = "header">
+            <h1><i> Fabrics House | الصعيدي </i></h1>
+            <nav>
+                <a class="button" href="index.html" target="_blank">Home</a>
+                <a class="button" href= "about.html" target="_blank">About Us</a> 
+                <a class="button" href = "components.html"target="_blank">Products</a>
+            </nav> 
+            <img src="images/order.img.jpeg" alt =":(">    
+        </header>
+        <main>
+            <h3><label for ="Make your order">Make your order : </label></h3>
+            <form class = "from" action = "#" method="post">
+                
+                <label for = "Name">Name</label>
+                <input type = "text" placeholder = "Enter your name"> <br>
+                <label for = "Email"> Email:  </label>
+                <input type = "email" placeholder = "Enter your email" > <br>
+                <label for = "Number"> Number:   </label>
+                <input type = "number" placeholder = "Enter your number"> <br>
+                <label for ="address" > address :</label>
+                <input type = "text" placeholder="Enter your address"><br>
+                <h3>Select Your Fabrics </h3>
+
+                <div class = "order-item">
+                    <label> <input type = "checkbox" name="fabric" value = "cotton "> Cotton fabric </label>
+                    <label for = "cotton-meters"> and Numder of meters :</label>
+                    <input type = "number" id = "cotton-meters" name = "cooton-meters" min = "1" step = "1" value="1">
+                </div>
+
+                <div class = "order-item">
+                    <label> <input type = "checkbox" name="fabric" value = "Satin "> Satin fabric </label>
+                    <label for = "Satin-meters"> and Numder of meters :</label>
+                    <input type = "number" id = "Satin-meters" name = "Satin-meters" min = "1" step = "1" value="1">
+                </div>
+
+                <div class = "order-item">
+                    <label> <input type = "checkbox" name="fabric" value = "Linen "> Linen fabric </label>
+                    <label for = "Linen-meters"> and Numder of meters :</label>
+                    <input type = "number" id = "Linen-meters" name = "Linen-meters" min = "1" step = "1" value="1">
+                </div>
+
+                <div class = "order-item">
+                    <label> <input type = "checkbox" name="fabric" value = "Linen "> Lycra fabric </label>
+                    <label for = "Lycra-meters"> and Numder of meters :</label>
+                    <input type = "number" id = "Lycra-meters" name = "Lycra-meters" min = "1" step = "1" value="1">
+                </div>
+            </form>
+            <label for = "model-toggle" class = "button"> review order </label>
+        </main>
+        <div class = "alert" role ="status">please review your order details brfore continuing</div>
+        <input type="checkbox" id = "model-toggle" class="model-toggle">
+        <div class ="model">
+            <h2>Order Information </h2>
+            <label for ="model-toggle" class = "button modal-close"> Close</label>
+        </div> 
+        <footer class = "footer">
+            <p>2026 fabrics House</p>
+        </footer>
+    </body>
+</html>
