@@ -304,7 +304,7 @@ footer {
     :root {
         --color-primary: #95634fac;
         --color-secondary: #8f6b52;
-        --color-background: #1c1917;
+        --color-background: #876a57;
         --color-surface: #dc8850;
         --color-text: #f5eee7;
         --color-border: #665347;
@@ -319,7 +319,7 @@ footer {
 
     .button:hover {
         background-color: #b58b6b;
-        color: #1c1917;
+        color: #b78767;
     }
 
     nav .button {
