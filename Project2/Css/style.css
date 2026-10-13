@@ -70,7 +70,7 @@ nav .button {
 }
 
 .button:hover {
-    background-color: #5d4037;
+    background-color: #9f6958;
     color: white;
 }
 
@@ -240,7 +240,7 @@ form button {
     position: fixed;
     inset: 0;
     z-index: 1000;
-    background-color: rgba(236, 202, 185, 0);
+    background-color: rgba(236, 202, 185, 0.838);
     padding: 20px;
     align-items: center;
     justify-content: center;
@@ -257,7 +257,7 @@ form button {
     padding: 28px;
     border-radius: 12px;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(212, 206, 206, 0.25);
+    box-shadow: 0 10px 30px rgba(229, 162, 107, 0.989);
 }
 
 .modal-content h2 {
@@ -305,10 +305,10 @@ footer {
         --color-primary: #95634fac;
         --color-secondary: #8f6b52;
         --color-background: #1c1917;
-        --color-surface: #2b2521;
+        --color-surface: #dc8850;
         --color-text: #f5eee7;
         --color-border: #665347;
-        --color-accent: #49382d;
+        --color-accent: #a97452;
     }
 
     .alert {
